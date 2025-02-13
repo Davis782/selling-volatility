@@ -1,0 +1,1172 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_calendar",
+        "importPath": "pandas_market_calendars",
+        "description": "pandas_market_calendars",
+        "isExtraImport": true,
+        "detail": "pandas_market_calendars",
+        "documentation": {}
+    },
+    {
+        "label": "get_calendar",
+        "importPath": "pandas_market_calendars",
+        "description": "pandas_market_calendars",
+        "isExtraImport": true,
+        "detail": "pandas_market_calendars",
+        "documentation": {}
+    },
+    {
+        "label": "get_calendar",
+        "importPath": "pandas_market_calendars",
+        "description": "pandas_market_calendars",
+        "isExtraImport": true,
+        "detail": "pandas_market_calendars",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "polygon_api_key",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "polygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-05-01\", end_date = (datetime.today()-timedelta(days = 1))).index.strftime(\"%Y-%m-%d\").values\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "calendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-05-01\", end_date = (datetime.today()-timedelta(days = 1))).index.strftime(\"%Y-%m-%d\").values\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "trading_dates",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "trading_dates = calendar.schedule(start_date = \"2023-05-01\", end_date = (datetime.today()-timedelta(days = 1))).index.strftime(\"%Y-%m-%d\").values\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "ticker",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "ticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "index_ticker",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "index_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "options_ticker",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "options_ticker = \"SPX\"\netf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "etf_ticker",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "etf_ticker = \"SPY\"\ntrade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "trade_time",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "trade_time = \"09:35\"\nmove_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()\n        prior_day = trading_dates[np.where(trading_dates==date)[0][0]-1]",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "move_adjustment",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "move_adjustment = .5\nspread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()\n        prior_day = trading_dates[np.where(trading_dates==date)[0][0]-1]\n        prior_day_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{prior_day}/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "spread_width",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "spread_width = 1\ntrade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()\n        prior_day = trading_dates[np.where(trading_dates==date)[0][0]-1]\n        prior_day_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{prior_day}/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        prior_day_underlying_data.index = pd.to_datetime(prior_day_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "trade_list",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "trade_list = []\ntimes = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()\n        prior_day = trading_dates[np.where(trading_dates==date)[0][0]-1]\n        prior_day_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{prior_day}/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        prior_day_underlying_data.index = pd.to_datetime(prior_day_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        big_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{etf_ticker}/range/1/day/2020-01-01/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "times = []\n# date = trading_dates[1:][-1]\nfor date in trading_dates[1:]:\n    try:\n        start_time = datetime.now()\n        prior_day = trading_dates[np.where(trading_dates==date)[0][0]-1]\n        prior_day_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{prior_day}/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        prior_day_underlying_data.index = pd.to_datetime(prior_day_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        big_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{etf_ticker}/range/1/day/2020-01-01/{prior_day}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        big_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX/range/1/day/2018-03-01/{trading_dates[-1]}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1).shift(1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data.index",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1).shift(1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"1_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1).shift(1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"3_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1).shift(1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data['vol_regime']",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1).shift(1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"str_date\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\nvix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "vix_data = vix_data.set_index(\"str_date\")\n#############################################\nall_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades = pd.concat(trade_list).drop_duplicates(\"date\").set_index(\"date\")\n# all_trades = pd.concat([all_trades, vix_data[[\"3_mo_avg\",\"vol_regime\"]]], axis = 1).dropna()\n# all_trades = all_trades[all_trades[\"vol_regime\"] == 0].copy()\nall_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades.index",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades.index = pd.to_datetime(all_trades.index).tz_localize(\"America/New_York\")\nall_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades[\"contracts\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades[\"contracts\"] = 1\nall_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])\n# plt.plot(np.arange(0, len(all_trades)), all_trades[\"net_capital\"])",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades[\"fees\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades[\"fees\"] = all_trades[\"contracts\"] * 0.04\nall_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])\n# plt.plot(np.arange(0, len(all_trades)), all_trades[\"net_capital\"])\nplt.legend([\"Net PnL (Incl. Fees)\"])",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades[\"net_pnl\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades[\"net_pnl\"] = (all_trades[\"gross_pnl\"] * all_trades[\"contracts\"]) - all_trades[\"fees\"]\ncapital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])\n# plt.plot(np.arange(0, len(all_trades)), all_trades[\"net_capital\"])\nplt.legend([\"Net PnL (Incl. Fees)\"])\nplt.show()",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "capital",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "capital = 3000\nall_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])\n# plt.plot(np.arange(0, len(all_trades)), all_trades[\"net_capital\"])\nplt.legend([\"Net PnL (Incl. Fees)\"])\nplt.show()\nmonthly = all_trades.resample(\"M\").sum(numeric_only=True)",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "all_trades[\"net_capital\"]",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "all_trades[\"net_capital\"] = capital + (all_trades[\"net_pnl\"]*100).cumsum()\nplt.figure(dpi=200)\nplt.xticks(rotation=45)\nplt.suptitle(f\"Selling 0-DTE Credit Spreads - Trend Following\")\nplt.plot(all_trades.index, all_trades[\"net_capital\"])\n# plt.plot(np.arange(0, len(all_trades)), all_trades[\"net_capital\"])\nplt.legend([\"Net PnL (Incl. Fees)\"])\nplt.show()\nmonthly = all_trades.resample(\"M\").sum(numeric_only=True)\ntotal_return = round(((all_trades[\"net_capital\"].iloc[-1] - capital) / capital)*100, 2)",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "monthly",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "monthly = all_trades.resample(\"M\").sum(numeric_only=True)\ntotal_return = round(((all_trades[\"net_capital\"].iloc[-1] - capital) / capital)*100, 2)\nsd = round(all_trades[\"gross_pnl_percent\"].std(), 2)\nwins = all_trades[all_trades[\"net_pnl\"] > 0]\nlosses = all_trades[all_trades[\"net_pnl\"] < 0]\navg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "total_return",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "total_return = round(((all_trades[\"net_capital\"].iloc[-1] - capital) / capital)*100, 2)\nsd = round(all_trades[\"gross_pnl_percent\"].std(), 2)\nwins = all_trades[all_trades[\"net_pnl\"] > 0]\nlosses = all_trades[all_trades[\"net_pnl\"] < 0]\navg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "sd",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "sd = round(all_trades[\"gross_pnl_percent\"].std(), 2)\nwins = all_trades[all_trades[\"net_pnl\"] > 0]\nlosses = all_trades[all_trades[\"net_pnl\"] < 0]\navg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "wins",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "wins = all_trades[all_trades[\"net_pnl\"] > 0]\nlosses = all_trades[all_trades[\"net_pnl\"] < 0]\navg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "losses",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "losses = all_trades[all_trades[\"net_pnl\"] < 0]\navg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")\nprint(f\"Total Profit: ${all_trades['net_pnl'].sum()*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "avg_win",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "avg_win = wins[\"net_pnl\"].mean()\navg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")\nprint(f\"Total Profit: ${all_trades['net_pnl'].sum()*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "avg_loss",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "avg_loss = losses[\"net_pnl\"].mean()\nwin_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")\nprint(f\"Total Profit: ${all_trades['net_pnl'].sum()*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "win_rate",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "win_rate = round(len(wins) / len(all_trades), 2)\nexpected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")\nprint(f\"Total Profit: ${all_trades['net_pnl'].sum()*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "expected_value",
+        "kind": 5,
+        "importPath": "spread-backtest-settlement",
+        "description": "spread-backtest-settlement",
+        "peekOfCode": "expected_value = round((win_rate * avg_win) + ((1-win_rate) * avg_loss), 2)\nprint(f\"EV per trade: ${expected_value*100}\")\nprint(f\"Win Rate: {win_rate*100}%\")\nprint(f\"Avg Profit: ${round(avg_win*100,2)}\")\nprint(f\"Avg Loss: ${round(avg_loss*100,2)}\")\nprint(f\"Total Profit: ${all_trades['net_pnl'].sum()*100}\")",
+        "detail": "spread-backtest-settlement",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "base_url = 'https://api.tastyworks.com'\n# Authenticate session\nauth_url = 'https://api.tastyworks.com/sessions'\nheaders = {'Content-Type': 'application/json'}\nsession_data = {\n    # Tastytrade email + pw\n    \"login\": \"your-tastytrade-email@email.com\",\n    \"password\": \"your-tastytrade-password\",\n    \"remember-me\": True\n}",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "auth_url",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "auth_url = 'https://api.tastyworks.com/sessions'\nheaders = {'Content-Type': 'application/json'}\nsession_data = {\n    # Tastytrade email + pw\n    \"login\": \"your-tastytrade-email@email.com\",\n    \"password\": \"your-tastytrade-password\",\n    \"remember-me\": True\n}\nauthentication_response = requests.post(auth_url, headers=headers, json=session_data)\nauthentication_json = authentication_response.json()",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "headers = {'Content-Type': 'application/json'}\nsession_data = {\n    # Tastytrade email + pw\n    \"login\": \"your-tastytrade-email@email.com\",\n    \"password\": \"your-tastytrade-password\",\n    \"remember-me\": True\n}\nauthentication_response = requests.post(auth_url, headers=headers, json=session_data)\nauthentication_json = authentication_response.json()\nsession_token = authentication_json[\"data\"][\"session-token\"]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "session_data",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "session_data = {\n    # Tastytrade email + pw\n    \"login\": \"your-tastytrade-email@email.com\",\n    \"password\": \"your-tastytrade-password\",\n    \"remember-me\": True\n}\nauthentication_response = requests.post(auth_url, headers=headers, json=session_data)\nauthentication_json = authentication_response.json()\nsession_token = authentication_json[\"data\"][\"session-token\"]\nauthorized_header = {'Authorization': session_token}",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "authentication_response",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "authentication_response = requests.post(auth_url, headers=headers, json=session_data)\nauthentication_json = authentication_response.json()\nsession_token = authentication_json[\"data\"][\"session-token\"]\nauthorized_header = {'Authorization': session_token}\n# End of authentication\n# Pull account information and verify balance\naccounts = requests.get(f\"{base_url}/customers/me/accounts\", headers = {'Authorization': session_token}).json()\naccount_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "authentication_json",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "authentication_json = authentication_response.json()\nsession_token = authentication_json[\"data\"][\"session-token\"]\nauthorized_header = {'Authorization': session_token}\n# End of authentication\n# Pull account information and verify balance\naccounts = requests.get(f\"{base_url}/customers/me/accounts\", headers = {'Authorization': session_token}).json()\naccount_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "session_token",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "session_token = authentication_json[\"data\"][\"session-token\"]\nauthorized_header = {'Authorization': session_token}\n# End of authentication\n# Pull account information and verify balance\naccounts = requests.get(f\"{base_url}/customers/me/accounts\", headers = {'Authorization': session_token}).json()\naccount_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "authorized_header",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "authorized_header = {'Authorization': session_token}\n# End of authentication\n# Pull account information and verify balance\naccounts = requests.get(f\"{base_url}/customers/me/accounts\", headers = {'Authorization': session_token}).json()\naccount_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================\n# Polygon Data",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "accounts",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "accounts = requests.get(f\"{base_url}/customers/me/accounts\", headers = {'Authorization': session_token}).json()\naccount_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================\n# Polygon Data\n# =============================================================================\npolygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "account_number",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "account_number = accounts[\"data\"][\"items\"][0][\"account\"][\"account-number\"]\nbalances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================\n# Polygon Data\n# =============================================================================\npolygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "balances",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "balances = requests.get(f\"{base_url}/accounts/{account_number}/balances\", headers = {'Authorization': session_token}).json()[\"data\"]\noption_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================\n# Polygon Data\n# =============================================================================\npolygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "option_buying_power",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "option_buying_power = np.float64(balances[\"derivative-buying-power\"])\nprint(f\"Buying Power: ${option_buying_power}\")\n# =============================================================================\n# Polygon Data\n# =============================================================================\npolygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "polygon_api_key",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "polygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "calendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "trading_dates",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "trading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "date = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"1_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=30).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"3_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=63).mean()\nvix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"6_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data[\"6_mo_avg\"] = vix_data[\"c\"].rolling(window=126).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data['vol_regime']",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"str_date\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# Define the volatility regime\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "vol_regime",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "vol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "big_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "big_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data[\"1_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "big_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data[\"3_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "big_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data['regime']",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "big_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\n# Define the regime of the underlying asset\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "trend_regime",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "trend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "ticker",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "ticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "index_ticker",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "index_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "options_ticker",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "options_ticker = \"SPX\"\ntrading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "trading_date",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "trading_date = datetime.now().strftime(\"%Y-%m-%d\")\nunderlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "underlying_data",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nunderlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "underlying_data.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "index_data",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{trading_date}/{trading_date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nindex_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "index_data.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "index_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nindex_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days\n    valid_calls[\"distance_from_price\"] = abs(valid_calls[\"strike_price\"] - price)",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "index_price",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "index_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nprice = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days\n    valid_calls[\"distance_from_price\"] = abs(valid_calls[\"strike_price\"] - price)\n    upper_price = round(price + (price * expected_move))",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "price = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\nexpected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days\n    valid_calls[\"distance_from_price\"] = abs(valid_calls[\"strike_price\"] - price)\n    upper_price = round(price + (price * expected_move))\n    otm_calls = valid_calls[valid_calls[\"strike_price\"] >= upper_price]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "expected_move",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "expected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50\nexp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days\n    valid_calls[\"distance_from_price\"] = abs(valid_calls[\"strike_price\"] - price)\n    upper_price = round(price + (price * expected_move))\n    otm_calls = valid_calls[valid_calls[\"strike_price\"] >= upper_price]\n    short_call = otm_calls.iloc[[0]]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "exp_date",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "exp_date = trading_date\nif trend_regime == 0:\n    valid_calls = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/reference/options/contracts?underlying_ticker={options_ticker}&contract_type=call&as_of={trading_date}&expiration_date={exp_date}&limit=1000&apiKey={polygon_api_key}\").json()[\"results\"])\n    valid_calls = valid_calls[valid_calls[\"ticker\"].str.contains(\"SPXW\")].copy()\n    valid_calls[\"days_to_exp\"] = (pd.to_datetime(valid_calls[\"expiration_date\"]) - pd.to_datetime(trading_date)).dt.days\n    valid_calls[\"distance_from_price\"] = abs(valid_calls[\"strike_price\"] - price)\n    upper_price = round(price + (price * expected_move))\n    otm_calls = valid_calls[valid_calls[\"strike_price\"] >= upper_price]\n    short_call = otm_calls.iloc[[0]]\n    long_call = otm_calls.iloc[[1]]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "option_url",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "option_url = f\"https://api.tastyworks.com/option-chains/SPXW/nested\"\noption_chain = pd.json_normalize(requests.get(option_url,  headers = {'Authorization': session_token}).json()[\"data\"][\"items\"][0][\"expirations\"][0][\"strikes\"])\noption_chain[\"strike_price\"] = option_chain[\"strike-price\"].astype(float)\nshort_option = option_chain[option_chain[\"strike_price\"] == short_strike].copy()\nlong_option = option_chain[option_chain[\"strike_price\"] == long_strike].copy()\nif trend_regime == 0:\n    short_ticker = short_option[\"call\"].iloc[0]\n    long_ticker = long_option[\"call\"].iloc[0]\nelif trend_regime == 1:\n    short_ticker = short_option[\"put\"].iloc[0]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "option_chain",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "option_chain = pd.json_normalize(requests.get(option_url,  headers = {'Authorization': session_token}).json()[\"data\"][\"items\"][0][\"expirations\"][0][\"strikes\"])\noption_chain[\"strike_price\"] = option_chain[\"strike-price\"].astype(float)\nshort_option = option_chain[option_chain[\"strike_price\"] == short_strike].copy()\nlong_option = option_chain[option_chain[\"strike_price\"] == long_strike].copy()\nif trend_regime == 0:\n    short_ticker = short_option[\"call\"].iloc[0]\n    long_ticker = long_option[\"call\"].iloc[0]\nelif trend_regime == 1:\n    short_ticker = short_option[\"put\"].iloc[0]\n    long_ticker = long_option[\"put\"].iloc[0]",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "option_chain[\"strike_price\"]",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "option_chain[\"strike_price\"] = option_chain[\"strike-price\"].astype(float)\nshort_option = option_chain[option_chain[\"strike_price\"] == short_strike].copy()\nlong_option = option_chain[option_chain[\"strike_price\"] == long_strike].copy()\nif trend_regime == 0:\n    short_ticker = short_option[\"call\"].iloc[0]\n    long_ticker = long_option[\"call\"].iloc[0]\nelif trend_regime == 1:\n    short_ticker = short_option[\"put\"].iloc[0]\n    long_ticker = long_option[\"put\"].iloc[0]\n# =============================================================================",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "short_option",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "short_option = option_chain[option_chain[\"strike_price\"] == short_strike].copy()\nlong_option = option_chain[option_chain[\"strike_price\"] == long_strike].copy()\nif trend_regime == 0:\n    short_ticker = short_option[\"call\"].iloc[0]\n    long_ticker = long_option[\"call\"].iloc[0]\nelif trend_regime == 1:\n    short_ticker = short_option[\"put\"].iloc[0]\n    long_ticker = long_option[\"put\"].iloc[0]\n# =============================================================================\n# Get most recent bid/ask",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "long_option",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "long_option = option_chain[option_chain[\"strike_price\"] == long_strike].copy()\nif trend_regime == 0:\n    short_ticker = short_option[\"call\"].iloc[0]\n    long_ticker = long_option[\"call\"].iloc[0]\nelif trend_regime == 1:\n    short_ticker = short_option[\"put\"].iloc[0]\n    long_ticker = long_option[\"put\"].iloc[0]\n# =============================================================================\n# Get most recent bid/ask\n# =============================================================================",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "short_option_quote",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "short_option_quote = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/quotes/{short_ticker_polygon}?&sort=timestamp&order=desc&limit=10&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"sip_timestamp\").sort_index().tail(1)\nshort_option_quote.index = pd.to_datetime(short_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nlong_option_quote = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/quotes/{long_ticker_polygon}?&sort=timestamp&order=desc&limit=10&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"sip_timestamp\").sort_index().tail(1)\nlong_option_quote.index = pd.to_datetime(long_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nnatural_price = round(short_option_quote[\"bid_price\"].iloc[0] - long_option_quote[\"ask_price\"].iloc[0], 2)\nmid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "short_option_quote.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "short_option_quote.index = pd.to_datetime(short_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nlong_option_quote = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/quotes/{long_ticker_polygon}?&sort=timestamp&order=desc&limit=10&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"sip_timestamp\").sort_index().tail(1)\nlong_option_quote.index = pd.to_datetime(long_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nnatural_price = round(short_option_quote[\"bid_price\"].iloc[0] - long_option_quote[\"ask_price\"].iloc[0], 2)\nmid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "long_option_quote",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "long_option_quote = pd.json_normalize(requests.get(f\"https://api.polygon.io/v3/quotes/{long_ticker_polygon}?&sort=timestamp&order=desc&limit=10&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"sip_timestamp\").sort_index().tail(1)\nlong_option_quote.index = pd.to_datetime(long_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nnatural_price = round(short_option_quote[\"bid_price\"].iloc[0] - long_option_quote[\"ask_price\"].iloc[0], 2)\nmid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "long_option_quote.index",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "long_option_quote.index = pd.to_datetime(long_option_quote.index, unit = \"ns\", utc = True).tz_convert(\"America/New_York\")\nnatural_price = round(short_option_quote[\"bid_price\"].iloc[0] - long_option_quote[\"ask_price\"].iloc[0], 2)\nmid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",\n    \"legs\": [{\"action\": \"Buy to Open\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "natural_price",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "natural_price = round(short_option_quote[\"bid_price\"].iloc[0] - long_option_quote[\"ask_price\"].iloc[0], 2)\nmid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",\n    \"legs\": [{\"action\": \"Buy to Open\",\n          \"instrument-type\": \"Equity Option\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "mid_price",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "mid_price = round(((short_option_quote[\"bid_price\"].iloc[0] + short_option_quote[\"ask_price\"].iloc[0]) / 2) - ((long_option_quote[\"bid_price\"].iloc[0] + long_option_quote[\"ask_price\"].iloc[0]) / 2), 2)\noptimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",\n    \"legs\": [{\"action\": \"Buy to Open\",\n          \"instrument-type\": \"Equity Option\",\n          \"symbol\": f\"{long_ticker}\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "optimal_price",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "optimal_price = round(np.int64(round((mid_price - .05) / .05, 2)) * .05, 2)\norder_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",\n    \"legs\": [{\"action\": \"Buy to Open\",\n          \"instrument-type\": \"Equity Option\",\n          \"symbol\": f\"{long_ticker}\",\n          \"quantity\": 1},",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "order_details",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "order_details = {\n    \"time-in-force\": \"Day\",\n    \"order-type\": \"Limit\",\n    \"price\": optimal_price,\n    \"price-effect\": \"Credit\",\n    \"legs\": [{\"action\": \"Buy to Open\",\n          \"instrument-type\": \"Equity Option\",\n          \"symbol\": f\"{long_ticker}\",\n          \"quantity\": 1},\n          {\"action\": \"Sell to Open\",",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "validate_order",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "validate_order = requests.post(f\"https://api.tastyworks.com/accounts/{account_number}/orders/dry-run\", json = order_details, headers = {'Authorization': session_token})\nvalidation_text = validate_order.text\nsubmit_order = requests.post(f\"{base_url}/accounts/{account_number}/orders\", json = order_details, headers = {'Authorization': session_token})\norder_submission_text = submit_order.text",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "validation_text",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "validation_text = validate_order.text\nsubmit_order = requests.post(f\"{base_url}/accounts/{account_number}/orders\", json = order_details, headers = {'Authorization': session_token})\norder_submission_text = submit_order.text",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "submit_order",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "submit_order = requests.post(f\"{base_url}/accounts/{account_number}/orders\", json = order_details, headers = {'Authorization': session_token})\norder_submission_text = submit_order.text",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "order_submission_text",
+        "kind": 5,
+        "importPath": "spread-production-tastytrade",
+        "description": "spread-production-tastytrade",
+        "peekOfCode": "order_submission_text = submit_order.text",
+        "detail": "spread-production-tastytrade",
+        "documentation": {}
+    },
+    {
+        "label": "polygon_api_key",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "polygon_api_key = \"KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3\"\ncalendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "calendar = get_calendar(\"NYSE\")\ntrading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "trading_dates",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "trading_dates = calendar.schedule(start_date = \"2023-01-01\", end_date = (datetime.today()+timedelta(days=1))).index.strftime(\"%Y-%m-%d\").values\ndate = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "date = trading_dates[-1]\nvix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/I:VIX1D/range/1/day/2023-05-01/{date}?sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nvix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data.index",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data.index = pd.to_datetime(vix_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nvix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"1_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data[\"1_mo_avg\"] = vix_data[\"c\"].rolling(window=20).mean()\nvix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"3_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data[\"3_mo_avg\"] = vix_data[\"c\"].rolling(window=60).mean()\nvix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data['vol_regime']",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data['vol_regime'] = vix_data.apply(lambda row: 1 if (row['1_mo_avg'] > row['3_mo_avg']) else 0, axis=1)\nvix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vix_data[\"str_date\"]",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vix_data[\"str_date\"] = vix_data.index.strftime(\"%Y-%m-%d\")\n# vix_data = vix_data.set_index(\"str_date\")\nvol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "vol_regime",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "vol_regime = vix_data[\"vol_regime\"].iloc[-1]\nbig_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "big_underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/SPY/range/1/day/2020-01-01/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\nbig_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data.index",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "big_underlying_data.index = pd.to_datetime(big_underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\nbig_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data[\"1_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "big_underlying_data[\"1_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=20).mean()\nbig_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data[\"3_mo_avg\"]",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "big_underlying_data[\"3_mo_avg\"] = big_underlying_data[\"c\"].rolling(window=60).mean()\nbig_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "big_underlying_data['regime']",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "big_underlying_data['regime'] = big_underlying_data.apply(lambda row: 1 if (row['c'] > row['1_mo_avg']) else 0, axis=1)\ntrend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "trend_regime",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "trend_regime = big_underlying_data['regime'].iloc[-1]\nticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "ticker",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "ticker = \"I:SPX\"\nindex_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "index_ticker",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "index_ticker = \"I:VIX1D\"\noptions_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "options_ticker",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "options_ticker = \"SPX\"\ntrade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        index_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "trade_list",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "trade_list = []\nreal_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        index_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "real_trading_dates",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "real_trading_dates = calendar.schedule(start_date = (datetime.today()-timedelta(days=10)), end_date = (datetime.today())).index.strftime(\"%Y-%m-%d\").values\ntoday = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        index_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\n        price = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]",
+        "detail": "spread-production",
+        "documentation": {}
+    },
+    {
+        "label": "today",
+        "kind": 5,
+        "importPath": "spread-production",
+        "description": "spread-production",
+        "peekOfCode": "today = real_trading_dates[-1]\nwhile 1:\n    try:\n        underlying_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        underlying_data.index = pd.to_datetime(underlying_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_data = pd.json_normalize(requests.get(f\"https://api.polygon.io/v2/aggs/ticker/{index_ticker}/range/1/minute/{today}/{today}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}\").json()[\"results\"]).set_index(\"t\")\n        index_data.index = pd.to_datetime(index_data.index, unit=\"ms\", utc=True).tz_convert(\"America/New_York\")\n        index_price = index_data[index_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\n        price = underlying_data[underlying_data.index.time >= pd.Timestamp(\"09:35\").time()][\"c\"].iloc[0]\n        expected_move = (round((index_price / np.sqrt(252)), 2)/100)*.50",
+        "detail": "spread-production",
+        "documentation": {}
+    }
+]
